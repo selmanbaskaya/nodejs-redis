@@ -12,7 +12,7 @@ npm install
 npm run start (it will start with nodemon)
 ```
 
-## To see the operation of functions publis and subscribe.
+## To see the operation of functions publish and subscribe.
 #### First, open two different terminals side by side.
 #### Then run the following command in the first terminal;
 ```
