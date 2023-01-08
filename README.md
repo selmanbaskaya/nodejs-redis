@@ -1,5 +1,7 @@
 # Redis with Node.js
 
+<img src="demo.gif" />
+
 ## Project setup
 ```
 npm install
