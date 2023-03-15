@@ -75,3 +75,10 @@ client.sinter("users:19283746", (err, msg) => {
         console.error(err);
     console.log('Message from sinter function for user19283746: ', msg);
 })
+
+// SREM FUNCTION
+client.srem("users:19283746", "Selman Baskaya", (err, msg) => {
+    if (err)
+        console.error(err);
+    console.log('Message from srem function for user19283746: ', msg);
+})
