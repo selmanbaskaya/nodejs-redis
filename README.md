@@ -7,7 +7,7 @@
 npm install
 ```
 
-## To see the operation of functions set, get, append, del and exists.
+## To see the operation of functions set, get, append, del, exists, sadd and sinter.
 ```
 npm run start (it will start with nodemon)
 ```

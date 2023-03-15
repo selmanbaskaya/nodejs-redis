@@ -61,3 +61,17 @@ client.exists("lname", (err, msg) => {
         console.error(err);
     console.log('Message from exists function for lname: ', msg);
 })
+
+// SADD FUNCTION
+client.sadd("users:19283746", "Selman Baskaya", (err, msg) => {
+    if (err)
+        console.error(err);
+    console.log('Message from sadd function for user19283746: ', msg);
+})
+
+// SINTER FUNCTION
+client.sinter("users:19283746", (err, msg) => {
+    if (err)
+        console.error(err);
+    console.log('Message from sinter function for user19283746: ', msg);
+})
