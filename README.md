@@ -4,7 +4,7 @@
 
 ## Project setup
 
-## Install Requirements
+## Install requirements
 ```
 npm install
 ```
