@@ -3,6 +3,8 @@
 <img src="demo.gif" />
 
 ## Project setup
+
+## Install Requirements
 ```
 npm install
 ```
