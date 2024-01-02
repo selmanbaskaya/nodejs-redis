@@ -82,3 +82,17 @@ client.srem("users:19283746", "Selman Baskaya", (err, msg) => {
         console.error(err);
     console.log('Message from srem function for user19283746: ', msg);
 })
+
+// HSET FUNCTION
+client.hSet("users:19283746", "name", "Selman", (err, msg) => {
+    if (err)
+        console.error(err);
+    console.log('Message from hSet function for user19283746: ', msg);
+})
+
+// HGET FUNCTION
+client.hGetAll("users:19283746", (err, msg) => {
+    if (err)
+        console.error(err);
+    console.log('Message from hGetAll function for user19283746: ', msg);
+})
